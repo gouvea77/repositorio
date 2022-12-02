@@ -536,7 +536,7 @@ footer {
     line-height: 33px;
 }
 
-.titulo-introducao, .titulo-skills, .palavra-inicial {
+.titulo-introducao, .titulo-skills, .palavra-inicial, .titulo-portifolio, .titulo-em-desenvolvimento, .titulo-pontos-a-se-destacar {
     
     font-size: 24px;
     line-height: 33px;
@@ -553,8 +553,14 @@ footer {
       height: 300px;
   }
 
-  .texto-inicial {
+  .texto-inicial, .descricao-portifolio-2, .descricao-portifolio-1 {
     width: 250px;
+    font-size: 14px;
+    line-height: 21px;
+    
+  }
+
+  .descricao-portifolio-1 span, .descricao-portifolio-2 span {
     font-size: 14px;
     line-height: 21px;
   }
