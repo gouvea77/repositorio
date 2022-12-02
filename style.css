@@ -651,4 +651,17 @@ footer {
     order: 1;
     place-self: center;
   }
+
+  .detalhe-intro {
+    display: none;
+  }
+
+  .detalhe {
+    display: inline-block;
+    margin-left: 1px;
+    width: 5px;
+    height: 5px;
+  }
+
+
 }
