@@ -520,6 +520,14 @@ footer {
 
 
 @media screen and (max-width: 1400px ) { 
+  .header {
+    margin-left: -30px;
+}
+
+  nav a {
+    font-size: 12px;
+  }
+
 
   .titulo-introducao {
     padding-top: 80px;
@@ -528,7 +536,7 @@ footer {
     line-height: 33px;
 }
 
-.titulo-introducao, .titulo-skills {
+.titulo-introducao, .titulo-skills, .palavra-inicial {
     
     font-size: 24px;
     line-height: 33px;
@@ -537,47 +545,53 @@ footer {
     gap: 5px;
     flex-direction: column;
   }
-  titulo-introducao {
-    font-size: 10px;
+  
+
+    .foto-de-perfil {
+      padding-top: 80px;
+      width: 300px;
+      height: 300px;
   }
 
-  .foto-de-perfil {
-    padding-top: 80px;
-    width: 300px;
-    height: 300px;
-}
+  .texto-inicial {
+    width: 250px;
+    font-size: 14px;
+    line-height: 21px;
+  }
 
-.texto-inicial {
-  width: 250px;
-  font-size: 10px;
-  line-height: 18px;
-}
+  .container-img {
+    display: flex;
+    padding-top: 40px;
+    gap: 25px;
+    justify-content: center;
+    flex-direction: column;
+    
+  }
 
-.container-img {
-  display: flex;
-  padding-top: 40px;
-  gap: 25px;
-  justify-content: center;
-  flex-direction: column;
-  
-}
+  .div-img {
+    margin: 0 auto;
+  }
 
-.div-img {
-  margin: 0 auto;
-}
-
-
+  .portifolio img {
+    border-radius: 20px;
+    margin: 0 auto;
+    
+  }
   .portifolio, .container-footer ,  .container-portifolio-1,
   .container-portifolio-2, .introducao , header , footer{
     width:100%
   }
   
- .separacao-portifolio-2 , .separacao-portifolio1 , .pontos-a-se-destacar, .em-desenvolvimento{
+  .separacao-portifolio-2 , .separacao-portifolio1 , .pontos-a-se-destacar, .em-desenvolvimento{
 
-  width: 250px;
-  margin: 0 auto;
-  flex-direction: column;
-  } 
+    width: 250px;
+    margin: 0 auto;
+    flex-direction: column;
+    } 
+
+  .container-portifolio-2 {
+    margin-bottom: 195px;
+  }
 
   .screenshoot-meu-perfil , .screenshoot-bickcraft {
     width: 250px;
@@ -591,5 +605,36 @@ footer {
 
   .pontos-a-se-destacar , .em-desenvolvimento {
     margin: 20px auto;
+    padding: 20px 30px 80px 10px 80px;
+  }
+
+  .container-tecnologias {
+    display: flex;
+    gap: 10px;
+    margin-left: -4px;
+    font-size: 8px;
+    padding: 2px 4px;
+}
+  .container-footer {
+      padding-top: 65px;
+  }
+
+  .contato-email, .contato-telefone, .estou-disponivel {
+    font-size: 14px;
+    line-height: 33px;
+  }
+
+  .contato-email, .contato-telefone {
+    font-size: 18px;
+    line-height: 33px;
+  }
+
+  .redes-sociais {
+    place-self: center;
+  }
+
+  .copyright {
+    order: 1;
+    place-self: center;
   }
 }
