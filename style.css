@@ -521,11 +521,22 @@ footer {
 
 @media screen and (max-width: 1400px ) { 
 
+  .titulo-introducao {
+    padding-top: 80px;
+    padding-left: 50px;
+    font-size: 24px;
+    line-height: 33px;
+}
 
-  .header {
+.titulo-introducao, .titulo-skills {
+    
+    font-size: 24px;
+    line-height: 33px;
+  }
+  .container-header {
+    gap: 5px;
     flex-direction: column;
   }
-
   titulo-introducao {
     font-size: 10px;
   }
@@ -535,6 +546,27 @@ footer {
     width: 300px;
     height: 300px;
 }
+
+.texto-inicial {
+  width: 250px;
+  font-size: 10px;
+  line-height: 18px;
+}
+
+.container-img {
+  display: flex;
+  padding-top: 40px;
+  gap: 25px;
+  justify-content: center;
+  flex-direction: column;
+  
+}
+
+.div-img {
+  margin: 0 auto;
+}
+
+
   .portifolio, .container-footer ,  .container-portifolio-1,
   .container-portifolio-2, .introducao , header , footer{
     width:100%
@@ -546,4 +578,18 @@ footer {
   margin: 0 auto;
   flex-direction: column;
   } 
+
+  .screenshoot-meu-perfil , .screenshoot-bickcraft {
+    width: 250px;
+    height: 135px;
+  }
+
+  .mais-sobre-mim img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .pontos-a-se-destacar , .em-desenvolvimento {
+    margin: 20px auto;
+  }
 }
