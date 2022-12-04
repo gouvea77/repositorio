@@ -358,7 +358,7 @@ footer {
   display: flex;
   position: relative;
   flex-direction: column;
-  background-color: #141414;
+  background-color: #000;
   display: flex;
 }
 
@@ -599,15 +599,24 @@ footer {
     border-radius: 20px;
     margin: 0 auto;
   }
+
+  
+  header{
+    width: 100% - 10px;
+  }
+
+
+
   .portifolio,
   .container-footer,
   .container-portifolio-1,
   .container-portifolio-2,
   .introducao,
-  header,
   footer {
-    width: 390px;
+    width: 100%
   }
+
+
 
 
   
