@@ -24,6 +24,16 @@ ul {
   list-style: none;
 }
 
+
+.screenshoot-bickcraft:hover{
+  border: 3px solid #C2271D;
+  font-size: 40px;
+  cursor: pointer;
+  margin: -3px;
+ 
+}
+
+
 img {
   max-width: 100%;
   display: block;
@@ -313,13 +323,12 @@ nav a {
 
 .link {
   color: #ffffff;
-  font-size: 20px;
-  padding-top: 20px;
+  font-size: 16px;
+  padding-top: 10px;
 }
 
 .link:hover {
   color: #c2271d;
-
   text-decoration: underline;
 }
 
@@ -609,6 +618,8 @@ footer {
     margin: 0 auto;
   }
 
+
+
   
   header{
     width: 100% - 10px;
@@ -653,7 +664,7 @@ footer {
 }
 
   .pontos-a-se-destacar,
-.em-desenvolvimento {
+  .em-desenvolvimento {
   height: 280px;
   padding: 20px;
   
@@ -714,7 +725,7 @@ footer {
     padding-top: 20px;
   }
   .container-footer {
-    padding-top: 90px;
+    padding-top: 20px;
   }
 
   .contato-email,
