@@ -432,7 +432,7 @@ footer {
   .container-header {
     margin: 0 auto;
     max-width: 1400px;
-    flex-direction: column;
+    
 }
 
   .introducao {
@@ -511,6 +511,14 @@ footer {
     width: 100%;
   }
 }
+
+
+@media screen and (max-width: 1000px) {
+  .container-header{
+    flex-direction: column;
+  }
+}
+
 
 @media screen and (max-width: 450px) {
   .header {
@@ -598,9 +606,11 @@ footer {
   .introducao,
   header,
   footer {
-    width: 100%;
+    width: 390px;
   }
 
+
+  
   .separacao-portifolio-2,
   .separacao-portifolio1,
   .pontos-a-se-destacar,
@@ -689,3 +699,5 @@ footer {
     height: 5px;
   }
 }
+
+
