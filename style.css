@@ -425,6 +425,16 @@ footer {
 }
 
 @media screen and (max-width: 1450px) {
+  .logo {
+     margin-left: 0px; 
+  }
+
+  .container-header {
+    margin: 0 auto;
+    max-width: 1400px;
+    flex-direction: column;
+}
+
   .introducao {
     flex-direction: column;
   }
@@ -484,9 +494,14 @@ footer {
     width: 600px;
   }
   .container-portifolio-2 {
-    height: 480px;
-  }
+    height: 630px;
+}
 
+
+.redes-sociais {
+  display: flex;
+  place-self: center;
+}
   .rodape,
   .copyright,
   .contato {
@@ -497,10 +512,15 @@ footer {
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .header {
     margin-left: -30px;
   }
+
+  .logo {
+    display: flex;
+    place-content:  center;
+ }
 
   .container-header {
     margin: 0 auto;
