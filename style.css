@@ -621,9 +621,10 @@ footer {
   }
 
   .container-portifolio-2 {
-    margin-bottom: 195px;
     margin: -1px auto;
     margin-left: 0px;
+    height: 500px;
+  
   }
 
   .screenshoot-meu-perfil,
