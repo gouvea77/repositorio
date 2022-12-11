@@ -258,6 +258,12 @@ nav a {
   height: 311px;
 }
 
+.screenshoot-bickcraft {
+   
+  max-width: fit-content !important;
+}
+
+
 .titulo-portifolio {
   font-style: normal;
   font-weight: 500;
@@ -538,9 +544,7 @@ footer {
 
 @media screen and (max-width: 450px) {
 
-  .header {
-    margin-left: -30px;
-  }
+  
 
   .logo {
     display: flex;
@@ -618,8 +622,10 @@ footer {
     margin: 0 auto;
   }
 
-
-
+  .screenshoot-bickcraft:hover{
+    margin: -3px auto;
+  }
+ 
   
   header{
     width: 100% - 10px;
@@ -665,7 +671,7 @@ footer {
 
   .pontos-a-se-destacar,
   .em-desenvolvimento {
-  height: 280px;
+  height: 290px;
   padding: 20px;
   
 }
@@ -692,7 +698,11 @@ footer {
   .screenshoot-bickcraft {
     width: 250px;
     height: 135px;
+    
   }
+
+  
+
 
   .mais-sobre-mim {
     margin: 90px auto;
