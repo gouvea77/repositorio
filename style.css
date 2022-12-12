@@ -1,10 +1,19 @@
+:root {
+  --cor-primaria: #c2271d;
+  --cinza-mais-claro: #E0E0E0;
+  --cinza-claro: #8f8f8f;
+  --cinza-menos-escuro: #7a7a7a;
+  --cinza-escuro: #292929;
+  --cinza-quase-preto:#141414;
+}
+
 * {
   margin: 0;
 }
 
 body {
   font-family: "Fira Sans", Arial, sans serif;
-  color: #141414;
+  color: var(--cinza-quase-preto);
 }
 
 h1,
@@ -26,17 +35,14 @@ ul {
 
 main {
   overflow-x: hidden;
- }
+}
 
-
-.screenshoot-bickcraft:hover{
-  border: 3px solid #C2271D;
+.screenshoot-bickcraft:hover {
+  border: 3px solid var(--cor-primaria);
   font-size: 40px;
   cursor: pointer;
   margin: -3px;
- 
 }
-
 
 img {
   max-width: 100%;
@@ -151,7 +157,7 @@ nav a {
   font-weight: 400;
   font-size: 24px;
   line-height: 36px;
-  color: #7a7a7a;
+  color: var(--cinza-menos-escuro);
 }
 
 .texto-inicial span {
@@ -167,7 +173,7 @@ nav a {
   font-weight: 500;
   font-size: 36px;
   line-height: 43px;
-  color: #c2271d;
+  color: var(--cor-primaria);
 }
 
 .skills {
@@ -193,7 +199,7 @@ nav a {
   line-height: 24px;
   padding-top: 5px;
   letter-spacing: 0.015em;
-  color: #7A7A7A;
+  color:var(--cinza-menos-escuro) ;
 }
 
 .mais-sobre-mim img {
@@ -233,7 +239,7 @@ nav a {
   font-weight: 500;
   font-size: 32px;
   line-height: 38px;
-  color: #292929;
+  color: var(--cinza-escuro) ;
   padding-top: 10px;
 }
 
@@ -247,7 +253,7 @@ nav a {
 }
 
 .portifolio {
-  background: #141414;
+  background: var(--cinza-quase-preto);
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
@@ -263,17 +269,15 @@ nav a {
 }
 
 .screenshoot-bickcraft {
-   
   max-width: fit-content !important;
 }
-
 
 .titulo-portifolio {
   font-style: normal;
   font-weight: 500;
   font-size: 64px;
   line-height: 77px;
-  color: #8F8F8F;
+  color: var(--cinza-claro);
   text-align: center;
   padding-top: 20px;
   padding-bottom: 70px;
@@ -311,7 +315,7 @@ nav a {
   font-weight: 500;
   font-size: 24px;
   line-height: 36px;
-  color: #8F8F8F;
+  color: var(--cinza-claro);
 }
 
 .titulo-portifolio-1 {
@@ -338,7 +342,7 @@ nav a {
 }
 
 .link:hover {
-  color: #c2271d;
+  color: var(--cor-primaria);
   text-decoration: underline;
 }
 
@@ -347,7 +351,7 @@ nav a {
   font-weight: 400;
   font-size: 20px;
   line-height: 36px;
-  color: #e0e0e0;
+  color: var(--cinza-mais-claro);
   padding-bottom: 10px;
 }
 
@@ -411,7 +415,7 @@ footer {
   font-weight: 700;
   font-size: 24px;
   line-height: 40px;
-  color: #e0e0e0;
+  color: var(--cinza-mais-claro);
 }
 
 .contato img {
@@ -436,7 +440,7 @@ footer {
   font-weight: 400;
   font-size: 16px;
   line-height: 32px;
-  color: #e0e0e0;
+  color: var(--cinza-mais-claro);
   place-self: end;
 }
 
@@ -446,14 +450,13 @@ footer {
 
 @media screen and (max-width: 1450px) {
   .logo {
-     margin-left: 0px; 
+    margin-left: 0px;
   }
 
   .container-header {
     margin: 0 auto;
     max-width: 1400px;
-    
-}
+  }
 
   .introducao {
     flex-direction: column;
@@ -479,7 +482,7 @@ footer {
     width: 600px;
   }
 
-  .container-footer{
+  .container-footer {
     margin-top: -1px;
   }
 
@@ -519,13 +522,12 @@ footer {
   }
   .container-portifolio-2 {
     height: 630px;
-}
+  }
 
-
-.redes-sociais {
-  display: flex;
-  place-self: center;
-}
+  .redes-sociais {
+    display: flex;
+    place-self: center;
+  }
   .rodape,
   .copyright,
   .contato {
@@ -536,28 +538,21 @@ footer {
   }
 
   .contato {
-    order:0;
+    order: 0;
   }
 }
 
-
-
-
 @media screen and (max-width: 1000px) {
-  .container-header{
+  .container-header {
     flex-direction: column;
   }
 }
 
-
 @media screen and (max-width: 450px) {
-
-  
-
   .logo {
     display: flex;
-    place-content:  center;
- }
+    place-content: center;
+  }
 
   .container-header {
     margin: 0 auto;
@@ -630,11 +625,11 @@ footer {
     margin: 0 auto;
   }
 
-  .screenshoot-bickcraft:hover{
+  .screenshoot-bickcraft:hover {
     margin: -3px auto;
   }
- 
-  header{
+
+  header {
     width: 100% - 10px;
   }
 
@@ -644,7 +639,7 @@ footer {
   .container-portifolio-2,
   .introducao,
   footer {
-    width: 100%
+    width: 100%;
   }
 
   .separacao-portifolio-2,
@@ -656,7 +651,6 @@ footer {
     /* flex-direction: column;  */
   }
 
-
   .titulo-em-desenvolvimento,
   .titulo-pontos-a-se-destacar {
     padding-top: 0px;
@@ -664,46 +658,41 @@ footer {
     padding-left: 5px;
   }
 
-  .descricao-pontos-a-se-destacar, .descricao-em-desenvolvimento {
+  .descricao-pontos-a-se-destacar,
+  .descricao-em-desenvolvimento {
     padding-left: 5px;
 
     font-size: 14px;
-}
+  }
 
   .pontos-a-se-destacar,
   .em-desenvolvimento {
-  height: 290px;
-  padding: 20px;
-  
-}
+    height: 290px;
+    padding: 20px;
+  }
 
+  .container-pontos-a-se-destacar,
+  .container-em-desenvolvimento {
+    font-size: 14px;
+    width: 180px;
+  }
 
-.container-pontos-a-se-destacar, .container-em-desenvolvimento {
- font-size: 14px ;
-  width: 180px;
-}
-
-.titulo-pontos-a-se-destacar, .titulo-em-desenvolvimento {
-  padding-bottom: 10px;
-  
-}
+  .titulo-pontos-a-se-destacar,
+  .titulo-em-desenvolvimento {
+    padding-bottom: 10px;
+  }
 
   .container-portifolio-2 {
     margin: -1px auto;
     margin-left: 0px;
     height: 500px;
-  
   }
 
   .screenshoot-meu-perfil,
   .screenshoot-bickcraft {
     width: 250px;
     height: 135px;
-    
   }
-
-  
-
 
   .mais-sobre-mim {
     margin: 90px auto;
@@ -772,5 +761,3 @@ footer {
     height: 5px;
   }
 }
-
-
