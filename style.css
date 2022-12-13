@@ -150,6 +150,8 @@ nav a {
   display: flex;
   justify-content: flex-start;
   padding-left: 50px;
+  font-family: 'roboto';
+  font-weight: 400;
 }
 
 .texto-inicial {
@@ -246,6 +248,7 @@ nav a {
 .descricao-pontos-a-se-destacar,
 .descricao-em-desenvolvimento {
   font-style: normal;
+  font-family: 'roboto';
   font-weight: 400;
   font-size: 20px;
   line-height: 28px;
@@ -333,6 +336,8 @@ nav a {
   font-size: 20px;
   line-height: 36px;
   color: #ffffff;
+  font-family: 'roboto';
+  font-weight: 400;
 }
 
 .link {
@@ -399,6 +404,8 @@ footer {
   color: #ffffff;
   place-self: center;
   padding-bottom: 50px;
+  font-family: 'roboto';
+  font-weight: 400;
 }
 
 .contato {
@@ -416,6 +423,8 @@ footer {
   font-size: 24px;
   line-height: 40px;
   color: var(--cinza-mais-claro);
+  font-family: 'roboto';
+  font-weight: 400;
 }
 
 .contato img {
@@ -442,6 +451,8 @@ footer {
   line-height: 32px;
   color: var(--cinza-mais-claro);
   place-self: end;
+  font-family: 'roboto';
+  font-weight: 400;
 }
 
 .copyright a {
@@ -618,6 +629,11 @@ footer {
 
   .div-img {
     margin: 0 auto;
+  }
+
+  .div-img p {
+    font-family: 'roboto';
+    font-weight: 500;
   }
 
   .portifolio img {
