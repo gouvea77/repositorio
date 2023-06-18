@@ -785,6 +785,7 @@ footer {
   height: 15px;
   border-radius: 10px;
   border:solid 1px #c2271d;
+  margin-bottom: 20px;
 }
 
 .progresso-css, .progresso-js, .progresso-html  {
