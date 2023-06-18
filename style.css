@@ -220,7 +220,7 @@ nav a {
   display: flex;
   padding: 50px;
   width: 1100px;
-  height: 368px;
+  height: 200px;
   left: 137px;
   top: 1420px;
   background: #fbfbfb;
@@ -776,4 +776,31 @@ footer {
     width: 5px;
     height: 5px;
   }
+}
+
+.barra {
+  margin-top: 5px;
+  width: 100%;
+  background-color: white;
+  height: 15px;
+  border-radius: 10px;
+  border:solid 1px #c2271d;
+}
+
+.progresso-css, .progresso-js, .progresso-html  {
+  height: 15px;
+  background-color: #c2271d;
+  border-radius: 10px;
+}
+
+.progresso-css{
+  width: 75%;
+}
+
+.progresso-js   {
+  width: 35%;
+}
+
+.progresso-html {
+  width: 90%;
 }
