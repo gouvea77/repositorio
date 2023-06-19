@@ -784,7 +784,7 @@ footer {
   background-color: white;
   height: 15px;
   border-radius: 10px;
-  border:solid 1px #c2271d;
+  border:solid 2px #000;
   margin-bottom: 20px;
 }
 
@@ -792,10 +792,12 @@ footer {
   height: 15px;
   background-color: #c2271d;
   border-radius: 10px;
+  animation: progress-animation 8s;
 }
 
 .progresso-css{
   width: 75%;
+  
 }
 
 .progresso-js   {
@@ -804,4 +806,11 @@ footer {
 
 .progresso-html {
   width: 90%;
+}
+
+
+@keyframes progress-animation{
+  from{
+    width: 0;
+  }
 }
