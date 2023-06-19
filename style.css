@@ -595,6 +595,13 @@ footer {
     margin: 0 auto;
     text-align: center;
   }
+
+  .palavra-inicial,
+.texto-inicial {
+  padding-left: 0px;
+
+}
+
   .container-header {
     gap: 5px;
     flex-direction: column;
