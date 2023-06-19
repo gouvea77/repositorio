@@ -160,6 +160,7 @@ nav a {
   font-size: 24px;
   line-height: 36px;
   color: var(--cinza-menos-escuro);
+  height: 200px;
 }
 
 .texto-inicial span {
@@ -179,7 +180,7 @@ nav a {
 }
 
 .skills {
-  padding-top: 200px;
+  padding-top: 100px;
   text-align: center;
   font-style: normal;
   font-weight: 500;
