@@ -103,28 +103,23 @@ nav a {
   margin-left: 50px;
 }
 
-.introducao {
-  display: flex;
-  max-width: 1400px;
+.introducao2 {
+  display: grid;
+  max-width: 1200px;
+  grid-template-columns: repeat(auto-fit, minmax(500px, auto));
   margin: 0 auto;
+  
 }
 
-.descricao {
-  display: flex;
-  flex-direction: column;
-}
+
 
 .foto-de-perfil {
   padding-top: 80px;
-  width: 600px;
-  height: 600px;
 }
 
-.titulo {
-  display: flex;
-}
 
-.titulo-introducao {
+
+.titulo-introducao2 {
   padding-top: 80px;
   padding-left: 50px;
   font-style: normal;
@@ -134,10 +129,10 @@ nav a {
 }
 
 .detalhe-intro {
-  position: absolute;
-  display: inline-block;
-  margin-left: -5px;
-  margin-top: 50px;
+    position: absolute;
+    display: inline-block;
+    margin-left: 353px;
+    margin-top: -23px;
 }
 
 .detalhe {
@@ -147,8 +142,7 @@ nav a {
 
 .palavra-inicial,
 .texto-inicial {
-  display: flex;
-  justify-content: flex-start;
+  
   padding-left: 50px;
   font-family: 'roboto';
   font-weight: 400;
@@ -478,12 +472,7 @@ footer {
     margin: 0 auto;
   }
 
-  .texto-inicial,
-  .palavra-inicial,
-  .titulo-introducao {
-    margin: 0 auto;
-    width: 600px;
-  }
+ 
 
   .skills {
     padding-top: 90px;
@@ -583,9 +572,7 @@ footer {
     line-height: 33px;
   }
 
-  .titulo-introducao,
-  .titulo-skills,
-  .palavra-inicial,
+  
   .titulo-portifolio,
   .titulo-em-desenvolvimento,
   .titulo-pontos-a-se-destacar {
