@@ -548,18 +548,58 @@ footer {
   .container-header {
     flex-direction: column;
   }
-}
 
-@media screen and (max-width: 1000px) {
   .container-img {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns:  repeat(2, 150px);
   }
 
   .div-img {
     justify-self: center;
   }
 }
+
+
+
+@media screen and (max-width: 800px) {
+
+ .titulo-introducao2, .texto-inicial, .palavra-inicial{
+  padding-left: 25px;
+ } 
+
+.palavra-inicial {
+  font-size: 28px;
+}
+
+.texto-inicial {
+  font-size: 20px;
+}
+
+  .mais-sobre-mim {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.pontos-a-se-destacar, .em-desenvolvimento {
+  width: 400px;
+}
+
+.mais-sobre-mim img {
+  height: 100px;
+  width: 100px;
+}
+.titulo-pontos-a-se-destacar, .titulo-em-desenvolvimento {
+  font-size: 28px;
+  padding-bottom: 10px;
+}
+
+.descricao-pontos-a-se-destacar, .descricao-em-desenvolvimento {
+  font-size: 16px;
+}
+
+}
+
+
 
 @media screen and (max-width: 450px) {
   .logo {
