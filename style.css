@@ -550,6 +550,17 @@ footer {
   }
 }
 
+@media screen and (max-width: 1000px) {
+  .container-img {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .div-img {
+    justify-self: center;
+  }
+}
+
 @media screen and (max-width: 450px) {
   .logo {
     display: flex;
