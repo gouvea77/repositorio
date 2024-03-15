@@ -103,7 +103,7 @@ nav a {
   margin-left: 50px;
 }
 
-.introducao2 {
+.introducao {
   display: grid;
   max-width: 1200px;
   grid-template-columns: repeat(auto-fit, minmax(500px, auto));
@@ -120,7 +120,7 @@ nav a {
 
 
 
-.titulo-introducao2 {
+.titulo-introducao {
   padding-top: 80px;
   padding-left: 50px;
   font-style: normal;
@@ -215,8 +215,8 @@ nav a {
   margin: 120px auto;
   display: flex;
   padding: 50px;
-  width: 1100px;
-  height: 200px;
+  max-width: 1100px;
+  max-height: 200px;
   left: 137px;
   top: 1420px;
   background: #fbfbfb;
@@ -481,7 +481,7 @@ footer {
 
   .pontos-a-se-destacar,
   .em-desenvolvimento {
-    width: 600px;
+    max-width: 600px;
   }
 
   .container-footer {
@@ -576,7 +576,7 @@ footer {
 }
 
   .mais-sobre-mim {
-    width: 600px;
+    max-width: 600px;
     margin: 0 auto;
 }
 
@@ -619,11 +619,20 @@ footer {
 
   .titulo-introducao {
     padding-top: 40px;
-    padding-left: 0px;
-    font-size: 24px;
-    line-height: 33px;
+    font-size: 48px;
+    line-height: 53px;
+    padding-left: 0%;
   }
 
+  .titulo-skills {
+    line-height: 53px;
+    font-size: 48px;
+  }
+
+  .palavra-inicial {
+    font-size: 22px;
+    padding-left: 10px;
+  }
   
   .titulo-portifolio,
   .titulo-em-desenvolvimento,
@@ -635,11 +644,10 @@ footer {
     text-align: center;
   }
 
-  .palavra-inicial,
-.texto-inicial {
-  padding-left: 0px;
-
-}
+  .descricao {
+    display: grid;
+    justify-content: center;
+  }
 
   .container-header {
     gap: 5px;
@@ -656,7 +664,7 @@ footer {
   .descricao-portifolio-2,
   .descricao-portifolio-1 {
     width: 250px;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 21px;
   }
 
@@ -703,6 +711,7 @@ footer {
   .introducao,
   footer {
     width: 100%;
+    justify-content: center;
   }
 
   .separacao-portifolio-2,
@@ -730,8 +739,9 @@ footer {
 
   .pontos-a-se-destacar,
   .em-desenvolvimento {
-    height: 290px;
+    max-height: 290px;
     padding: 20px;
+    max-width: 270px;
   }
 
   .container-pontos-a-se-destacar,
