@@ -112,14 +112,6 @@ nav a {
 }
 
 
-
-.foto-de-perfil {
-  padding-top: 80px;
-  border-radius: 300px;
-}
-
-
-
 .titulo-introducao {
   padding-top: 80px;
   padding-left: 50px;
@@ -469,10 +461,6 @@ footer {
     flex-direction: column;
   }
 
-  .foto-de-perfil {
-    margin: 0 auto;
-  }
-
  
 
   .skills {
@@ -618,7 +606,7 @@ footer {
   }
 
   .titulo-introducao {
-    padding-top: 40px;
+    padding-top: 0px;
     font-size: 48px;
     line-height: 53px;
     padding-left: 0%;
@@ -654,10 +642,11 @@ footer {
     flex-direction: column;
   }
 
-  .foto-de-perfil {
-    padding-top: 80px;
+  .foto-perfil {
     width: 300px;
     height: 300px;
+    border-radius: 50%;
+    margin: 50px auto;
   }
 
   .texto-inicial,
