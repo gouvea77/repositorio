@@ -111,6 +111,12 @@ nav a {
   
 }
 
+.foto-perfil {
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  margin: 50px auto;
+}
 
 .titulo-introducao {
   padding-top: 80px;
