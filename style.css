@@ -14,6 +14,8 @@
 body {
   font-family: "Fira Sans", Arial, sans serif;
   color: var(--cinza-quase-preto);
+  min-width: 320px;
+  scroll-behavior: auto;
 }
 
 h1,
@@ -296,8 +298,8 @@ nav a {
 
 .container-portifolio-2 {
   padding-top: 90px;
-  height: 600px;
-  
+  height: 450px;
+
 }
 
 .separacao-portifolio1 {
@@ -544,10 +546,12 @@ footer {
 }
 
 
+
+
 @media screen and (max-width: 1000px) {
 
   .texto-introducao {
-    max-width: 800px;
+    max-width: 600px;
     margin: 0 auto;
   }
 
@@ -583,7 +587,7 @@ footer {
   }
 
   .palavra-inicial {
-    font-size:32px;
+    font-size: 32px;
   }
 
   .texto-inicial {
@@ -906,5 +910,59 @@ footer {
 .scroll {
   opacity: 1;
   transform: translate3d(0, 0, 0);
- 
+
+}
+
+@media screen and (max-width: 650px) {
+
+  .texto-introducao {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+
+  .pontos-a-se-destacar,
+  .em-desenvolvimento {
+    max-width: 300px;
+    max-height: 400px;
+    padding: 40px 0 40px 0;
+  }
+
+  .mais-sobre-mim img {
+    width: 50px;
+    align-self: initial;
+    margin-top: -20px;
+  }
+
+  .container-portifolio-1,
+  .container-portifolio-2 {
+    max-width: 470px;
+  }
+
+  .container-portifolio-2 {
+    margin-bottom: 100px;
+  }
+
+  .container-portifolio-2 img,
+  .container-portifolio-1 img {
+    width: 350px;
+    height: 250px;
+    margin: 0 auto;
+  }
+
+  .portifolio1,
+  .separacao-portifolio-2 {
+    max-width: 470px;
+  }
+
+  .titulo-pontos-a-se-destacar,
+  .titulo-em-desenvolvimento {
+    font-size: 20px;
+  }
+
+  .descricao-pontos-a-se-destacar,
+  .descricao-em-desenvolvimento {
+    padding-left: 5px;
+    font-size: 14px;
+  }
+
 }
