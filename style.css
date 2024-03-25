@@ -180,7 +180,6 @@ nav a {
   font-weight: 500;
   font-size: 48px;
   line-height: 77px;
-  animation: show 1s forwards;
 }
 
 .container-img {
@@ -208,7 +207,6 @@ nav a {
 .mais-sobre-mim {
   max-width: 1400px;
   margin: 0 auto;
-  animation: show .5s forwards;
 }
 
 .pontos-a-se-destacar,
@@ -888,17 +886,7 @@ footer {
   }
 }
 
-/* @keyframes show {
-  from {
-    opacity: 0;
-    transform: translate3d(-90px, 0, 0);
-  }
 
-  to {
-    opacity: 1;
-    transform: translate3d(0, 0, 0);
-  }
-} */
 
 .js-scroll {
   opacity: 0;
