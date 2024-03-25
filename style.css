@@ -542,6 +542,11 @@ footer {
 
 @media screen and (max-width: 1000px) {
 
+  .texto-introducao {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
   .container-header {
     flex-direction: column;
   }
@@ -574,11 +579,11 @@ footer {
   }
 
   .palavra-inicial {
-    font-size: 28px;
+    font-size:32px;
   }
 
   .texto-inicial {
-    font-size: 20px;
+    font-size: 21px;
   }
 
   .mais-sobre-mim {
@@ -588,7 +593,7 @@ footer {
 
   .pontos-a-se-destacar,
   .em-desenvolvimento {
-    width: 400px;
+    width: 500px;
   }
 
   .mais-sobre-mim img {
@@ -598,7 +603,7 @@ footer {
 
   .titulo-pontos-a-se-destacar,
   .titulo-em-desenvolvimento {
-    font-size: 28px;
+    font-size: 30px;
     padding-bottom: 10px;
   }
 
