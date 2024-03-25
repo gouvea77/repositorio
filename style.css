@@ -482,6 +482,7 @@ footer {
   .pontos-a-se-destacar,
   .em-desenvolvimento {
     max-width: 600px;
+    padding: 40px!important;
   }
 
   .container-footer {
@@ -493,8 +494,8 @@ footer {
     flex-direction: column;
   }
 
-  .titulo-portifolio-1 {
-    padding-left: 0px;
+  .titulo-portifolio {
+    font-size: 48px!important;
   }
 
   .separacao-portifolio1 {
@@ -976,7 +977,7 @@ footer {
 .lista-conteudo-portifolio {
   max-width: 1400px;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 20px;
   padding: 20px;
   margin: 0 auto;
