@@ -13,7 +13,7 @@ function efeitoEscrever() {
 efeitoEscrever();
 
 
-function scrollSuave (){
+function scrollSuave() {
   const linksInternos = document.querySelectorAll(".js-menu");
 
   function scrollToSection(event) {
@@ -31,3 +31,17 @@ function scrollSuave (){
   });
 }
 scrollSuave();
+
+const sections = document.querySelectorAll(".js-scroll");
+
+function animaScroll() {
+  sections.forEach((section) => {
+    const topo = section.getBoundingClientRect().top;
+    if (topo < 500) {
+     section.classList.add("scroll");
+    }
+  })
+
+}
+
+window.addEventListener("scroll", animaScroll);
