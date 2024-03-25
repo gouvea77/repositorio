@@ -280,11 +280,13 @@ nav a {
   font-weight: 500;
   font-size: 64px;
   line-height: 77px;
-  color: var(--cinza-claro);
+  color: var(--cinza-quase-preto);
   text-align: center;
   padding-top: 20px;
   padding-bottom: 70px;
   grid-column: 1/3;
+  line-height: 77px;
+  font-weight: bold;
 }
 
 .container-portifolio-1,
