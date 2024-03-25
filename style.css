@@ -997,6 +997,10 @@ footer {
 
 }
 
+.texto-portifolio {
+  color: var(--cinza-claro);
+}
+
 
 .new-portifolio li H2 {
   padding-bottom: 20px;
