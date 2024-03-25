@@ -142,7 +142,6 @@ nav a {
 
 .palavra-inicial,
 .texto-inicial {
-
   padding-left: 50px;
   font-family: 'roboto';
   font-weight: 400;
@@ -151,7 +150,7 @@ nav a {
 .texto-inicial {
   font-style: normal;
   font-weight: 400;
-  font-size: 24px;
+  font-size: 21px;
   line-height: 36px;
   color: var(--cinza-menos-escuro);
   height: 200px;
@@ -168,9 +167,13 @@ nav a {
   padding-top: 30px;
   font-style: normal;
   font-weight: 500;
-  font-size: 36px;
+  font-size: 32px;
   line-height: 43px;
   color: var(--cor-primaria);
+}
+
+.titulo-skills {
+  font-size: 64px;
 }
 
 .skills {
@@ -294,7 +297,7 @@ nav a {
 .container-portifolio-2 {
   padding-top: 90px;
   height: 600px;
-  margin-bottom: 120px;
+  
 }
 
 .separacao-portifolio1 {
@@ -469,7 +472,7 @@ footer {
   }
 
   .skills {
-    padding-top: 90px;
+    padding-top: 20px;
   }
 
   .pontos-a-se-destacar,
@@ -518,6 +521,7 @@ footer {
 
   .container-portifolio-2 {
     height: 630px;
+    margin-bottom: 80px;
   }
 
   .redes-sociais {
@@ -645,7 +649,7 @@ footer {
   }
 
   .palavra-inicial {
-    font-size: 22px;
+    font-size: 24px;
     padding-left: 10px;
   }
 
@@ -680,7 +684,7 @@ footer {
   .descricao-portifolio-2,
   .descricao-portifolio-1 {
     max-width: 300px;
-    font-size: 16px;
+    font-size: 12px;
     line-height: 21px;
   }
 
