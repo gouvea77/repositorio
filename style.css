@@ -966,3 +966,85 @@ footer {
   }
 
 }
+
+.new-portifolio {
+  max-width: 100%;
+}
+
+.lista-conteudo-portifolio {
+  max-width: 1400px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  margin: 0 auto;
+  justify-items: center;
+  margin-bottom: 70px;
+}
+
+.imagem-portifolio {
+  max-width: 400px;
+  min-height: 400px;
+  background-color: white;
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  display: grid;
+
+}
+
+
+.new-portifolio li H2 {
+  padding-bottom: 20px;
+  padding-top: 20px;
+  text-align: initial;
+  align-self: initial;
+}
+
+.new-portifolio a {
+  color: #000;
+}
+
+.tecnologias-portifolio {
+  display: flex;
+}
+
+.tecnologia {
+  margin-top: 20px;
+  width: 40px !important;
+  height: 40px !important;
+  border-radius: 50%;
+  background-color: #e5e5e5;
+  margin-right: 5px;
+  cursor: pointer;
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.tecnologia img {
+  max-width: 30px;
+  margin: 0 auto;
+}
+
+.tecnologia:hover {
+  background-color: #b2b2b2;
+}
+
+.botao-projeto {
+  margin: 0 auto;
+  background-color: white;
+  max-width: fit-content;
+  padding: 10px;
+  border-radius: 20px;
+  border: 2px solid #c2271d;
+  font-weight: bold;
+  align-self: end;
+}
+
+.botao-projeto:hover {
+  cursor: pointer;
+  background-color: #c2271d;
+
+}

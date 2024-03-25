@@ -1,14 +1,15 @@
 function efeitoEscrever() {
-  function typeWriteR(elemento) {
-    const textoArray = elemento.innerHTML.split('');
-    elemento.innerHTML = "";
+  const texto = document.querySelector(".texto")
+  
+  function typeWriteR(texto) {
+    const textoArray = texto.innerHTML.split('');
+    texto.innerHTML = "";
     textoArray.forEach((letra, i) => {
-      setTimeout(() => elemento.innerHTML += letra, 30 * i);
+      setTimeout(() => texto.innerHTML += letra, 30 * i);
     });
   }
 
-  const titulo = document.querySelector(".texto")
-  typeWriteR(titulo);
+  typeWriteR(texto);
 }
 efeitoEscrever();
 
@@ -37,7 +38,7 @@ function scrollAnimado() {
   const sections = document.querySelectorAll(".js-scroll");
   if (sections.length) {
     const windowMetade = window.innerHeight * 0.6;
-    
+
     function animaScroll() {
       sections.forEach((section) => {
         const topo = section.getBoundingClientRect().top - windowMetade;
@@ -45,7 +46,6 @@ function scrollAnimado() {
           section.classList.add("scroll");
         }
       })
-
     }
     animaScroll();
     window.addEventListener("scroll", animaScroll);
