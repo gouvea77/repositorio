@@ -4,7 +4,7 @@
   --cinza-claro: #8f8f8f;
   --cinza-menos-escuro: #7a7a7a;
   --cinza-escuro: #292929;
-  --cinza-quase-preto:#141414;
+  --cinza-quase-preto: #141414;
 }
 
 * {
@@ -109,7 +109,7 @@ nav a {
   grid-template-columns: repeat(auto-fit, minmax(500px, auto));
   margin: 0 auto;
   animation: show .5s forwards;
-  
+
 }
 
 .foto-perfil {
@@ -129,10 +129,10 @@ nav a {
 }
 
 .detalhe-intro {
-    position: absolute;
-    display: inline-block;
-    margin-left: 353px;
-    margin-top: -23px;
+  position: absolute;
+  display: inline-block;
+  margin-left: 353px;
+  margin-top: -23px;
 }
 
 .detalhe {
@@ -142,7 +142,7 @@ nav a {
 
 .palavra-inicial,
 .texto-inicial {
-  
+
   padding-left: 50px;
   font-family: 'roboto';
   font-weight: 400;
@@ -197,7 +197,7 @@ nav a {
   line-height: 24px;
   padding-top: 5px;
   letter-spacing: 0.015em;
-  color:var(--cinza-menos-escuro) ;
+  color: var(--cinza-menos-escuro);
 }
 
 .mais-sobre-mim img {
@@ -238,7 +238,7 @@ nav a {
   font-weight: 500;
   font-size: 32px;
   line-height: 38px;
-  color: var(--cinza-escuro) ;
+  color: var(--cinza-escuro);
   padding-top: 10px;
 }
 
@@ -470,8 +470,6 @@ footer {
     flex-direction: column;
   }
 
- 
-
   .skills {
     padding-top: 90px;
   }
@@ -519,6 +517,7 @@ footer {
   .container-portifolio-2 {
     width: 600px;
   }
+
   .container-portifolio-2 {
     height: 630px;
   }
@@ -527,6 +526,7 @@ footer {
     display: flex;
     place-self: center;
   }
+
   .rodape,
   .copyright,
   .contato {
@@ -541,58 +541,73 @@ footer {
   }
 }
 
+
 @media screen and (max-width: 1000px) {
+
   .container-header {
     flex-direction: column;
   }
 
   .container-img {
     display: grid;
-    grid-template-columns:  repeat(2, 150px);
+    grid-template-columns: repeat(2, 150px);
   }
 
   .div-img {
     justify-self: center;
   }
-}
 
+  .titulo-introducao {
+    text-align: center;
+    padding-left: 0px;
+  }
 
+  .detalhe-intro {
+    position: absolute;
+    display: inline-block;
+    margin-left: 176px;
+    margin-top: -23px;
+  }
 
-@media screen and (max-width: 800px) {
+  .titulo-introducao2,
+  .texto-inicial,
+  .palavra-inicial {
+    padding-left: 25px;
+  }
 
- .titulo-introducao2, .texto-inicial, .palavra-inicial{
-  padding-left: 25px;
- } 
+  .palavra-inicial {
+    font-size: 28px;
+  }
 
-.palavra-inicial {
-  font-size: 28px;
-}
-
-.texto-inicial {
-  font-size: 20px;
-}
+  .texto-inicial {
+    font-size: 20px;
+  }
 
   .mais-sobre-mim {
     max-width: 600px;
     margin: 0 auto;
-}
+  }
 
-.pontos-a-se-destacar, .em-desenvolvimento {
-  width: 400px;
-}
+  .pontos-a-se-destacar,
+  .em-desenvolvimento {
+    width: 400px;
+  }
 
-.mais-sobre-mim img {
-  height: 100px;
-  width: 100px;
-}
-.titulo-pontos-a-se-destacar, .titulo-em-desenvolvimento {
-  font-size: 28px;
-  padding-bottom: 10px;
-}
+  .mais-sobre-mim img {
+    height: 100px;
+    width: 100px;
+  }
 
-.descricao-pontos-a-se-destacar, .descricao-em-desenvolvimento {
-  font-size: 16px;
-}
+  .titulo-pontos-a-se-destacar,
+  .titulo-em-desenvolvimento {
+    font-size: 28px;
+    padding-bottom: 10px;
+  }
+
+  .descricao-pontos-a-se-destacar,
+  .descricao-em-desenvolvimento {
+    font-size: 16px;
+  }
 
 }
 
@@ -630,7 +645,7 @@ footer {
     font-size: 22px;
     padding-left: 10px;
   }
-  
+
   .titulo-portifolio,
   .titulo-em-desenvolvimento,
   .titulo-pontos-a-se-destacar {
@@ -661,7 +676,7 @@ footer {
   .texto-inicial,
   .descricao-portifolio-2,
   .descricao-portifolio-1 {
-    width: 250px;
+    max-width: 300px;
     font-size: 16px;
     line-height: 21px;
   }
@@ -718,7 +733,6 @@ footer {
   .em-desenvolvimento {
     width: 250px;
     margin: 0 auto;
-    /* flex-direction: column;  */
   }
 
   .titulo-em-desenvolvimento,
@@ -795,6 +809,7 @@ footer {
     padding: 6px 4px;
     padding-top: 20px;
   }
+
   .container-footer {
     padding-top: 20px;
   }
@@ -822,7 +837,9 @@ footer {
   }
 
   .detalhe-intro {
-    display: none;
+   align-self: flex-end;
+   margin-left: 132px;
+   margin-top: -13px;
   }
 
   .detalhe {
@@ -839,24 +856,25 @@ footer {
   background-color: white;
   height: 15px;
   border-radius: 10px;
-  border:solid 2px #000;
+  border: solid 2px #000;
   margin-bottom: 20px;
 }
 
-.progresso-css, .progresso-js, .progresso-html  {
+.progresso-css,
+.progresso-js,
+.progresso-html {
   height: 15px;
   background-color: #c2271d;
   border-radius: 10px;
   animation: progress-animation 8s;
 }
 
-.progresso-css{
+.progresso-css {
   width: 90%;
-  
 }
 
-.progresso-js   {
-  width: 24%;
+.progresso-js {
+  width: 25%;
 }
 
 .progresso-html {
@@ -864,8 +882,8 @@ footer {
 }
 
 
-@keyframes progress-animation{
-  from{
+@keyframes progress-animation {
+  from {
     width: 0;
   }
 }
@@ -881,4 +899,3 @@ footer {
     transform: translate3d(0, 0, 0);
   }
 }
-
