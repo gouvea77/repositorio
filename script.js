@@ -1,6 +1,6 @@
 function efeitoEscrever() {
   const texto = document.querySelector(".texto")
-  
+
   function typeWriteR(texto) {
     const textoArray = texto.innerHTML.split('');
     texto.innerHTML = "";
@@ -52,3 +52,4 @@ function scrollAnimado() {
   }
 }
 scrollAnimado();
+
