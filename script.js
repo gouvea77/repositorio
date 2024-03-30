@@ -53,3 +53,21 @@ function scrollAnimado() {
 }
 scrollAnimado();
 
+
+// function efeitoEscrever2() {
+//   const texto2 = document.querySelector(".texto-footer")
+//   const ele = document.querySelector("footer")
+//   const bottom = ele.getBoundingClientRect();
+//   console.log(bottom);
+
+//   function typeWriteR(texto2) {
+//     const textoArray2 = texto2.innerText.split('');
+//     texto2.innerHTML = "";
+//     textoArray2.forEach((letra, i) => {
+//       setTimeout(() => texto2.innerHTML += letra, 90 * i);
+//     });
+//   }
+
+//   typeWriteR(texto2);
+// }
+// efeitoEscrever2();
