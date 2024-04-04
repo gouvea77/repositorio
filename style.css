@@ -747,7 +747,7 @@ footer {
 }
 
 .progresso-js {
-  width: 33%;
+  width: 37%;
 }
 
 .progresso-html {
@@ -844,6 +844,7 @@ footer {
   color: #c2271d;
   padding-top: 10px;
   font-family: "Fira sans", sans-serif;
+  font-size: 0.75em;
 }
 
 .new-portifolio li H2 {
