@@ -164,6 +164,7 @@ nav a {
   line-height: 36px;
   color: var(--cinza-menos-escuro);
   height: 200px;
+  min-width: 700px;
 }
 
 .texto-inicial span {
@@ -388,6 +389,10 @@ footer {
 }
 
 @media screen and (max-width: 1450px) {
+
+  .texto-inicial {
+    min-width: 400px;
+  }
   .logo {
     margin-left: 0px;
   }

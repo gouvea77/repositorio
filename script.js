@@ -1,15 +1,12 @@
 function efeitoEscrever() {
   const texto = document.querySelector(".texto")
-
-  function typeWriteR(texto) {
-    const textoArray = texto.innerHTML.split('');
-    texto.innerHTML = "";
-    textoArray.forEach((letra, i) => {
-      setTimeout(() => texto.innerHTML += letra, 30 * i);
-    });
-  }
-
-  typeWriteR(texto);
+  const textoArray = texto.innerHTML.split('');
+  texto.innerHTML = "";
+  textoArray.forEach((letra, i) => {
+    setTimeout(() => {
+      texto.innerHTML += letra;
+    }, 30 * i);
+  });
 }
 efeitoEscrever();
 
