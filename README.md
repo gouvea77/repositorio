@@ -11,16 +11,21 @@ Descrição curta do que o projeto faz.
 - HTML
 - CSS
 - JavaScript
-- Cypress
 
-## 🚀 Como usar
 
-```bash
-# Clone o repositório
-git clone https://github.com/seu-usuario/seu-projeto.git
 
-# Instale as dependências
-npm install
+---
 
-# Inicie a aplicação
-npm start
+### ✅ 2. **Use imagens e GIFs**
+- Mostre a interface do projeto ou o comportamento do sistema com prints ou GIFs animados (use sites como [Licecap](https://www.cockos.com/licecap/) para gerar GIFs).
+- Suba as imagens na pasta `assets/` ou use o caminho direto delas no GitHub.
+
+---
+
+### ✅ 3. **Configure a GitHub Page (se for projeto web)**
+- Para projetos com HTML/CSS/JS, ative o GitHub Pages em `Settings > Pages` e publique seu site diretamente.
+- Use o link no README com um botão:
+
+```markdown
+🔗 [Veja o projeto online](https://seuusuario.github.io/nome-do-projeto)
+
