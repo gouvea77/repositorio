@@ -3,11 +3,6 @@ export default function fetchGitHub() {
 
   fetch("https://api.github.com/users/gouvea77/repos")
   .then(response => response.json())
-  .then((response) => {
-    response.forEach(e => {
-      console.log(e.owner.avatar_url)
-      fotoPerfil.src = e.owner.avatar_url
-    });
-  })
+  .then(response => fotoPerfil.src = response.owner.avatar_url)
 }
 
